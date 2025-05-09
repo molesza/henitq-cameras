@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xmime="http://www.w3.org/2005/05/xmlmime" targetNamespace="http://www.w3.org/2005/05/xmlmime" elementFormDefault="qualified">
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+			Schema for XML Mime
+			$Id: xmlmime.xsd,v 1.3 2005/05/19 16:08:44 hugo Exp $
+		</xs:documentation>
+	</xs:annotation>
+	<xs:attribute name="contentType" type="xs:string"/>
+	<xs:complexType name="base64Binary">
+		<xs:simpleContent>
+			<xs:extension base="xs:base64Binary">
+				<xs:attribute ref="xmime:contentType" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="hexBinary">
+		<xs:simpleContent>
+			<xs:extension base="xs:hexBinary">
+				<xs:attribute ref="xmime:contentType" use="optional"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

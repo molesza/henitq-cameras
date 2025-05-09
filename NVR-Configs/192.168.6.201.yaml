@@ -1,0 +1,897 @@
+onvif:
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8081
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel1
+    uuid: 4898bb79-45f7-4284-91dc-130afc67e4dd
+    highQuality:
+      rtsp: /cam/realmonitor?channel=1&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=1&subtype=0
+      width: 960
+      height: 576
+      framerate: 25
+      bitrate: 2048
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=1&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=1&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8082
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel2
+    uuid: 75b706eb-2bdb-46f8-9263-018423f425dd
+    highQuality:
+      rtsp: /cam/realmonitor?channel=2&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=2&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=2&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=2&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8083
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel3
+    uuid: f452b718-0137-4254-922e-9183dbb81597
+    highQuality:
+      rtsp: /cam/realmonitor?channel=3&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=3&subtype=0
+      width: 960
+      height: 576
+      framerate: 25
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=3&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=3&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8084
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel4
+    uuid: c355ca6d-2c57-4230-87d2-5fc61766a2d3
+    highQuality:
+      rtsp: /cam/realmonitor?channel=4&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=4&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=4&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=4&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8085
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel5
+    uuid: 6e217c55-efba-4631-b205-df87e421f35e
+    highQuality:
+      rtsp: /cam/realmonitor?channel=5&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=5&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=5&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=5&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8086
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel6
+    uuid: f9ac5661-f8e4-4742-9a08-e4030837ffaf
+    highQuality:
+      rtsp: /cam/realmonitor?channel=6&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=6&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=6&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=6&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8087
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel7
+    uuid: c9c0c133-96bd-476d-88dc-fc8d3d18fa87
+    highQuality:
+      rtsp: /cam/realmonitor?channel=7&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=7&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=7&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=7&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8088
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel8
+    uuid: 693027f3-d8b9-4a08-b778-2771c099e337
+    highQuality:
+      rtsp: /cam/realmonitor?channel=8&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=8&subtype=0
+      width: 960
+      height: 576
+      framerate: 25
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=8&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=8&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8089
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel9
+    uuid: 3aba1766-b271-4c3b-b3e1-9c480cd9dcdb
+    highQuality:
+      rtsp: /cam/realmonitor?channel=9&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=9&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=9&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=9&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8090
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel10
+    uuid: 2d096e39-a96f-4a68-ac64-facd059de412
+    highQuality:
+      rtsp: /cam/realmonitor?channel=10&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=10&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=10&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=10&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8091
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel11
+    uuid: d415d413-d715-42af-a8ef-ca931abc1126
+    highQuality:
+      rtsp: /cam/realmonitor?channel=11&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=11&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=11&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=11&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8092
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel12
+    uuid: 7f79cf98-3c9a-4684-ba83-f3d3633bc021
+    highQuality:
+      rtsp: /cam/realmonitor?channel=12&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=12&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=12&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=12&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8093
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel13
+    uuid: 8e915b73-d83b-42df-ab64-e3c8cccc0aac
+    highQuality:
+      rtsp: /cam/realmonitor?channel=13&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=13&subtype=0
+      width: 960
+      height: 576
+      framerate: 25
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=13&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=13&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8094
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel14
+    uuid: 632e7810-6038-4c78-90c4-cb3a7e9fffa2
+    highQuality:
+      rtsp: /cam/realmonitor?channel=14&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=14&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=14&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=14&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8095
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel15
+    uuid: 205e4cf7-721f-409e-8c93-1db847d8cdcf
+    highQuality:
+      rtsp: /cam/realmonitor?channel=15&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=15&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=15&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=15&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8096
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel16
+    uuid: 8c972560-45c9-4598-87c9-d8b67cf3e8e9
+    highQuality:
+      rtsp: /cam/realmonitor?channel=16&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=16&subtype=0
+      width: 960
+      height: 576
+      framerate: 25
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=16&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=16&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8097
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel17
+    uuid: 2d86b969-c27c-4e84-990c-90228338e05c
+    highQuality:
+      rtsp: /cam/realmonitor?channel=17&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=17&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=17&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=17&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8098
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel18
+    uuid: d9556b05-4084-44ff-bccd-128622c57954
+    highQuality:
+      rtsp: /cam/realmonitor?channel=18&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=18&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=18&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=18&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8099
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel19
+    uuid: a0e955e6-ea0f-455a-9120-502af5bb48b1
+    highQuality:
+      rtsp: /cam/realmonitor?channel=19&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=19&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 2048
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=19&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=19&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8100
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel20
+    uuid: 3ce80178-1f1c-40ba-8515-c4369f7ecad5
+    highQuality:
+      rtsp: /cam/realmonitor?channel=20&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=20&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=20&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=20&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8101
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel21
+    uuid: 1a5fd95d-41ac-4dac-ac2e-67b03048fc04
+    highQuality:
+      rtsp: /cam/realmonitor?channel=21&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=21&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=21&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=21&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8102
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel22
+    uuid: 05c7334b-c7f8-49ec-b30c-ac6870455e44
+    highQuality:
+      rtsp: /cam/realmonitor?channel=22&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=22&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=22&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=22&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8103
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel23
+    uuid: bcc0c7ce-9836-423c-8e5f-bbcab92b6701
+    highQuality:
+      rtsp: /cam/realmonitor?channel=23&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=23&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=23&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=23&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8104
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel24
+    uuid: 55db03e1-3100-412e-99e0-e57f34f7c9ac
+    highQuality:
+      rtsp: /cam/realmonitor?channel=24&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=24&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=24&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=24&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8105
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel25
+    uuid: 2745eba4-27f5-4f9d-8c7d-53405d3df046
+    highQuality:
+      rtsp: /cam/realmonitor?channel=25&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=25&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=25&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=25&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8106
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel26
+    uuid: 4e4e04fe-af3a-4551-9937-0297c02ddf1e
+    highQuality:
+      rtsp: /cam/realmonitor?channel=26&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=26&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=26&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=26&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8107
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel27
+    uuid: 8cb8a002-900c-40c9-bb37-05843b7b9aca
+    highQuality:
+      rtsp: /cam/realmonitor?channel=27&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=27&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 2048
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=27&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=27&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8108
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel28
+    uuid: e7371e54-cfb8-4fa3-94f5-203e9d8d983b
+    highQuality:
+      rtsp: /cam/realmonitor?channel=28&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=28&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=28&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=28&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8109
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel29
+    uuid: 30694e9c-7057-458a-97f0-17d8b74f36ed
+    highQuality:
+      rtsp: /cam/realmonitor?channel=29&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=29&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=29&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=29&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8110
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel30
+    uuid: d9ab4a68-d6f6-4825-ae35-513eb82451fa
+    highQuality:
+      rtsp: /cam/realmonitor?channel=30&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=30&subtype=0
+      width: 960
+      height: 1080
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=30&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=30&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8111
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel31
+    uuid: d19f60a7-4d0b-499f-ace0-5b58f94f459e
+    highQuality:
+      rtsp: /cam/realmonitor?channel=31&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=31&subtype=0
+      width: 960
+      height: 576
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=31&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=31&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
+  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+    ports:
+      server: 8112
+      rtsp: 8554
+      snapshot: 8580
+    name: VideoSourceConfig_Channel32
+    uuid: 4258572e-8426-407b-ad80-a4a81824d67b
+    highQuality:
+      rtsp: /cam/realmonitor?channel=32&subtype=0&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=32&subtype=0
+      width: 1280
+      height: 720
+      framerate: 15
+      bitrate: 1024
+      quality: 4
+    lowQuality:
+      rtsp: /cam/realmonitor?channel=32&subtype=1&unicast=true&proto=Onvif
+      snapshot: /onvifsnapshot/media_service/snapshot?channel=32&subtype=1
+      width: 352
+      height: 288
+      framerate: 7
+      bitrate: 160
+      quality: 1
+    target:
+      hostname: 192.168.6.201
+      ports:
+        rtsp: 554
+        snapshot: 80
