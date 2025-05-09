@@ -1,5 +1,5 @@
 onvif:
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:01
     ports:
       server: 8081
       rtsp: 8554
@@ -27,7 +27,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:02
     ports:
       server: 8082
       rtsp: 8554
@@ -55,7 +55,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:03
     ports:
       server: 8083
       rtsp: 8554
@@ -83,7 +83,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:04
     ports:
       server: 8084
       rtsp: 8554
@@ -111,7 +111,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:05
     ports:
       server: 8085
       rtsp: 8554
@@ -139,7 +139,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:06
     ports:
       server: 8086
       rtsp: 8554
@@ -167,7 +167,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:07
     ports:
       server: 8087
       rtsp: 8554
@@ -195,7 +195,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:08
     ports:
       server: 8088
       rtsp: 8554
@@ -223,7 +223,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:09
     ports:
       server: 8089
       rtsp: 8554
@@ -251,7 +251,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:0a
     ports:
       server: 8090
       rtsp: 8554
@@ -279,7 +279,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:0b
     ports:
       server: 8091
       rtsp: 8554
@@ -307,7 +307,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:0c
     ports:
       server: 8092
       rtsp: 8554
@@ -335,7 +335,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:0d
     ports:
       server: 8093
       rtsp: 8554
@@ -363,7 +363,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:0e
     ports:
       server: 8094
       rtsp: 8554
@@ -391,7 +391,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:0f
     ports:
       server: 8095
       rtsp: 8554
@@ -419,7 +419,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:10
     ports:
       server: 8096
       rtsp: 8554
@@ -447,7 +447,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:11
     ports:
       server: 8097
       rtsp: 8554
@@ -475,7 +475,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:12
     ports:
       server: 8098
       rtsp: 8554
@@ -503,7 +503,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:13
     ports:
       server: 8099
       rtsp: 8554
@@ -531,7 +531,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:14
     ports:
       server: 8100
       rtsp: 8554
@@ -559,7 +559,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:15
     ports:
       server: 8101
       rtsp: 8554
@@ -587,7 +587,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:16
     ports:
       server: 8102
       rtsp: 8554
@@ -615,7 +615,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:17
     ports:
       server: 8103
       rtsp: 8554
@@ -643,7 +643,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:18
     ports:
       server: 8104
       rtsp: 8554
@@ -671,7 +671,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:19
     ports:
       server: 8105
       rtsp: 8554
@@ -699,7 +699,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:1a
     ports:
       server: 8106
       rtsp: 8554
@@ -727,7 +727,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:1b
     ports:
       server: 8107
       rtsp: 8554
@@ -755,7 +755,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:1c
     ports:
       server: 8108
       rtsp: 8554
@@ -783,7 +783,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:1d
     ports:
       server: 8109
       rtsp: 8554
@@ -811,7 +811,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:1e
     ports:
       server: 8110
       rtsp: 8554
@@ -839,7 +839,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:1f
     ports:
       server: 8111
       rtsp: 8554
@@ -867,7 +867,7 @@ onvif:
       ports:
         rtsp: 554
         snapshot: 80
-  - mac: <ONVIF PROXY MAC ADDRESS HERE>
+  - mac: a2:a2:a2:a2:a2:20
     ports:
       server: 8112
       rtsp: 8554
